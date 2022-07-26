@@ -2,7 +2,7 @@
   <div>
     <div id="pokemonModal" class="modal" @click="closeDetail">
       <!-- Modal content -->
-      <div class="modal-content" v-if="pokemon" @click.stop="">
+      <div class="modal-content" v-if="show" @click.stop="">
         <span class="close" @click="closeDetail">&times;</span>
         <div class="pokemon">
           <div class="pokemon-left">
